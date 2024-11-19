@@ -13,4 +13,5 @@ void main() {
   
   // Output: show the split amount for each person
   print('Each person needs to pay: \$${splitAmount.toStringAsFixed(2)}');
+  
 }
