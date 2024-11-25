@@ -1,5 +1,4 @@
 import 'dart:io';
-
 double calculateArea({double length = 1, double width = 1}) {
   return length * width;
 }

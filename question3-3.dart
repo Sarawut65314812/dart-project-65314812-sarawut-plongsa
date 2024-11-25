@@ -6,7 +6,6 @@ void createUser(String name, int age, {bool isActive = true}) {
   print("Age: $age");
   print("Active: $isActive");
 }
-
 void main() {
   print("Please Enter Your name :");
   String name = stdin.readLineSync()!;
