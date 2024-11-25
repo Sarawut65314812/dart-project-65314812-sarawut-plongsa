@@ -1,4 +1,5 @@
 import 'dart:io';
+
 void main() {
   print("Enter numbers to check: ");
   int number = int.parse(stdin.readLineSync()!); 
