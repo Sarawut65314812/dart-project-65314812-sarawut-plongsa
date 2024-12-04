@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:io';
-
 void main() async {
   // Prompt the user for the first integer
   print("Enter the first integer:");
