@@ -6,6 +6,7 @@ abstract class Bottle{
     return CokeBottle();
   }
   open();
+  
 }
 class CokeBottle implements Bottle{
   @override
@@ -21,6 +22,7 @@ class PepsiBottle implements Bottle{
     print('Pepsi bottle is opened');
   }
 }
+
 void main(){
   Bottle coke = Bottle('Fanta');
   coke.open();

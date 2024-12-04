@@ -13,7 +13,6 @@ class House{
     return "\nID: $id , \nname: $name , \nprice: $price";
   }
 }
-
 void main() {
   List<House> house = [];
   house.add( House("H1", "Modern Villa", "\$2500000.0"));

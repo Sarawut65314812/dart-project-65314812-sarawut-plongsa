@@ -20,7 +20,6 @@ class Cat extends Animal{
     return super.toString() + '\nsound : $sound';
   }
 }
-
 void main() {
  Cat mycat = Cat('1','fushi','brown','sweet');
   print(mycat);

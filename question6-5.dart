@@ -20,5 +20,4 @@ void main() {
   print(camera1.toString());        
   print(camera2.toString());
   print(camera3.toString());
-
 }
